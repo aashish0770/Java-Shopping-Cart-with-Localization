@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'darksolu'
-        DOCKERHUB_REPO = 'darksolu/JavaShoppingCart'
+        DOCKERHUB_REPO = 'darksolu/javashoppingcart'
         DOCKER_IMAGE_TAG = 'v1'
     }
 
