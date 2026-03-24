@@ -18,7 +18,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/aashish0770/Java-Shopping-Cart-with-Localization.git'
+                 git branch: 'main', url: 'https://github.com/aashish0770/Java-Shopping-Cart-with-Localization.git'
             }
         }
 
